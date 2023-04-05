@@ -66,7 +66,7 @@ btnHold.addEventListener("click", function () {
     //2. Check if player's score >= 100 & finish game
     // if <100 switchPlayer
 
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
       isGameOver = true;
       document
         .querySelector(`.player--${activePlayer}`)
